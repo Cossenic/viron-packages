@@ -1,0 +1,24 @@
+# XBPS package artifacts
+*.xbps
+*.xbps.sig
+*.sig2
+
+# Generated repository indexes and metadata
+*-repodata
+*-repodata.sig
+*.plist
+
+# Build and staging output
+build/
+build-*/
+stage/
+staging/
+dist/
+out/
+
+# Signing material and credentials
+*.pem
+*.key
+*.priv
+*.secret
+secrets/
